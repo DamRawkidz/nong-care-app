@@ -1,5 +1,5 @@
 <div class="conatiner">
-      <input type="nubmer" style="width:45%; padding: 1rem;font-size: 2rem;" [(ngModel)]="selectValue.unit" (ngModelChange)="calcularateAarea($event)">
+      <input type="tel" style="width:45%; padding: 1rem;font-size: 2rem;" [(ngModel)]="selectValue.unit" (ngModelChange)="calcularateAarea($event)">
       <br>
       <select style="width: 45%; font-size: 2rem;" [(ngModel)]="selectValue.fromUnit" (ngModelChange)="calcularateAarea($event)">
         @for (unit of fromUnits; track $index) {
